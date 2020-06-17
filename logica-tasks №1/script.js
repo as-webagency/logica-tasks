@@ -8,13 +8,12 @@
 PS без вырывания проводов и тд :)
 */
 
-let breakers = +prompt( 'Какую лампу хотите влючить по номеру? ', '' ), 
-    lamp;
+let breakers = +prompt( 'Какую лампу хотите влючить по номеру? ', '' );
 
 if ( breakers === 1 ) {
-    alert( `Включена лампа № ${breakers}` );
+    alert( `Выключатель относится к лампе № ${breakers}` );
 } else if ( breakers === 2 ) {
-    alert( `Включена лампа № ${breakers}` );
+    alert( `Выключатель относится к лампе № ${breakers}` );
 } else if ( breakers === 3 ) {
-    alert( `Включена лампа № ${breakers}` );
+    alert( `Выключатель относится к лампе № ${breakers}` );
 }
